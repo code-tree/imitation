@@ -1,0 +1,11 @@
+[Plugin]
+Loader=python3
+Module=imitation
+IAge=3
+Name=Imitation
+Description=Edit a document in multiple places simultaneously
+Authors=Jon Walsh
+Copyright=Copyright 2011-2015 Jon Walsh
+Website=https://github.com/code-tree/imitation
+Version=1.3.1
+
