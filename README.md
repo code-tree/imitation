@@ -3,6 +3,12 @@ Imitation is a plugin for the [gedit](https://wiki.gnome.org/Apps/Gedit) text ed
 
 It is **_highly recommended_** you first watch the [demonstration video](https://codetree.com.au/imitation/) to understand how Imitation works.
 
+[![Demo](https://codetree.com.au/static/content/imitation/demo_poster.png)](https://codetree.com.au/imitation/)
+
+
+## Download
+See [GitHub releases](https://github.com/code-tree/imitation/releases) for latest version (gedit 3.8+) or the [historic releases](https://codetree.com.au/imitation/) (gedit 2 - 3.7).
+
 ## Install
 1. Install the GSettings schema (needed for config)
   1. Locate your system's gschema dir (e.g. /usr/share/glib-2.0/schemas)
@@ -61,4 +67,4 @@ To save some confusion over plugin names:
 * **Imitation** is a sequel to Multi-edit created by Jon for gedit 3
 
 ## Author
-Imitation is a [Code Tree](https://codetree.com.au/) project and is hosted on [GitHub](https://github.com/code-tree/imitation/).
+Imitation is a [Code Tree](https://codetree.com.au/) project, created by Jon Walsh.
