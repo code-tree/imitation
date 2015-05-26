@@ -5,6 +5,23 @@ It is **_highly recommended_** you first watch the [demonstration video](https:/
 
 [![Demo](https://codetree.com.au/static/content/imitation/demo_poster.png)](https://codetree.com.au/imitation/)
 
+## Warning
+This plugin occasionally crashes when using find-and-replace at the same time.
+Unfortunately, I am no longer able to maintain this project, as I have switched to using [Atom](https://atom.io/) as my text editor. If you would like to adopt this project, please let me know.
+
+If you also want to switch to Atom, you can achieve similar functionality to this plugin with the following key-bindings in your `keymap.cson` (or just use Atom's defaults):
+
+```
+'atom-workspace atom-text-editor:not([mini])':
+    # Multiple cursors
+    'ctrl-pageup': 'editor:add-selection-above'
+    'ctrl-pagedown': 'editor:add-selection-below'
+    # Multiple cursors find
+    'ctrl-shift-pageup': 'find-and-replace:select-undo'
+    'ctrl-shift-pagedown': 'find-and-replace:select-next'
+    'ctrl-shift-enter': 'find-and-replace:select-skip'
+    'ctrl-shift-a': 'find-and-replace:select-all'
+```
 
 ## Download
 See [GitHub releases](https://github.com/code-tree/imitation/releases) for latest version (gedit 3.8+) or the [historic releases](https://codetree.com.au/imitation/) (gedit 2 - 3.7).
@@ -59,6 +76,7 @@ Please contribute to these remaining issues if you are able:
 * Packaging for various OSs
 * Unicode chars are not inserted properly
 * Enabling paste when text is selected
+* Occasional crash when using find-and-replace at the same time
 
 ## History
 To save some confusion over plugin names:
