@@ -1,9 +1,9 @@
 # Imitation
 Imitation is a plugin for the [gedit](https://wiki.gnome.org/Apps/Gedit) text editor, that allows the user to edit a document in multiple places simultaneously, to aid repetitive programming tasks.
 
-It is **_highly recommended_** you first watch the [demonstration video](https://codetree.com.au/imitation/) to understand how Imitation works.
+It is **_highly recommended_** you first watch the [demonstration video](http://code-tree.github.io/imitation/) to understand how Imitation works.
 
-[![Demo](https://codetree.com.au/static/content/imitation/demo_poster.png)](https://codetree.com.au/imitation/)
+[![Demo](http://code-tree.github.io/imitation/demo_poster.png)](http://code-tree.github.io/imitation/)
 
 ## Warning
 This plugin occasionally crashes when using find-and-replace at the same time.
@@ -24,7 +24,7 @@ If you also want to switch to Atom, you can achieve similar functionality to thi
 ```
 
 ## Download
-See [GitHub releases](https://github.com/code-tree/imitation/releases) for latest version (gedit 3.8+) or the [historic releases](https://codetree.com.au/imitation/) (gedit 2 - 3.7).
+See [GitHub releases](https://github.com/code-tree/imitation/releases) for latest version (gedit 3.8+) or the [historic releases](http://code-tree.github.io/imitation/) (gedit 2 - 3.7).
 
 ## Install
 1. Install the GSettings schema (needed for config)
