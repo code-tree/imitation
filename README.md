@@ -31,14 +31,14 @@ Arch Linux: [imitation-gedit-plugin-git](https://aur.archlinux.org/packages/imit
 
 ## Manual Install
 1. Install the GSettings schema (needed for config)
-  1. Locate your system's gschema dir (e.g. /usr/share/glib-2.0/schemas)
-  1. Place "org.gnome.gedit.plugins.imitation.gschema.xml" in there
-  1. Apply changes via "glib-compile-schemas dir"
+    1. Locate your system's gschema dir (e.g. /usr/share/glib-2.0/schemas)
+    1. Place "org.gnome.gedit.plugins.imitation.gschema.xml" in there
+    1. Apply changes via "glib-compile-schemas dir"
 1. Install the plugin
-  1. Identify gedit's plugin dir (e.g. /usr/lib/gedit/plugins)
-  1. Place "imitation.plugin" (file) and "imitation" (folder) in there
-    * Make sure they are readable by all
-  1. Activate Imitation in gedit's preferences
+    1. Identify gedit's plugin dir (e.g. /usr/lib/gedit/plugins)
+    1. Place "imitation.plugin" (file) and "imitation" (folder) in there
+        * Make sure they are readable by all
+    1. Activate Imitation in gedit's preferences
 
 ## Usage
 Imitation may seem a bit complex at first, but it is easy to learn, and powerful to use. There are two main aspects to Imitation: **marking** and **editing**.
